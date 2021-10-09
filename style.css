@@ -24,16 +24,22 @@ body{
 button{
     font-size: 180%;
     color: white;
-    background-color: #cc0000;
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+    border-radius: 10px;
     width:100%;
     padding: 2%;
+    margin: 1% 0 2% 0;
     margin-bottom: 2%;
 }
 button:hover {
+    cursor: pointer;
     opacity: 0.80;
     font-weight: bold;
     transform: scale(1.1);
     transition: .3s;
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
 }  
 button:not(hover) {
     transition: .5s;
