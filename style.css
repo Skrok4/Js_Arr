@@ -20,6 +20,8 @@ body{
     font-size: 200%;
     width: 100%;
     margin: 2% 0 2% 0;
+    border: white 5px solid;
+    border-radius: 3%;
 }
 button{
     font-size: 180%;
